@@ -19,19 +19,19 @@
         <repository>
             <id>nexusbuildartifactrelease</id>
             <name>nexusbuildartifactrelease</name>
-            <url>http://10.201.23.71:8081/content/repositories/releases/</url>
+            <url>http://192.168.1.102:8081/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexusbuildartifactsnapshot</id>
             <name>nexusbuildartifactsnapshot</name>
-            <url>http://10.201.23.71:8081/content/repositories/snapshots/</url>
+            <url>http://192.168.1.102:8081/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 <pluginRepositories>
         <pluginRepository>
             <id>repo_proxy</id>
             <name>repo_proxy</name>
-            <url>http://10.201.23.229:8081/nexus/content/repositories/repo_proxy/</url>
+            <url>http://192.168.1.102:8081/nexus/content/repositories/repo_proxy/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -44,7 +44,7 @@
                 <repository>
             <id>repo_proxy</id>
             <name>repo_proxy</name>
-            <url>http://10.201.23.229:8081/nexus/content/repositories/repo_proxy/</url>
+            <url>http://192.168.1.102:8081/nexus/content/repositories/repo_proxy/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
